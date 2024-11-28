@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<aspectj>
+  <weaver>
+    <include within="com.management.services.*"/>
+  </weaver>
+  <aspects>
+    <aspect name="com.management.aop.LoggingAspect"/>
+  </aspects>
+</aspectj>
+
